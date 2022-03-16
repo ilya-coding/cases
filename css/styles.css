@@ -1,0 +1,28 @@
+/* * {
+    transition: all .1s ease-in-out;
+} */
+
+body {
+    background-color: #F3F4F5;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+/* a {
+    text-decoration: none;
+    color: black;
+} */
+
+.navbar {
+    border-radius: 16px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+#radius {
+    border-radius: 12px;
+}
