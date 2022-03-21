@@ -9,6 +9,22 @@
     <title>Alfa-Bank website redesign and more</title>
 </head>
 <body>
+    <!-- Modal 3D Start -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">My 3D background</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>My hobby is modelling and rendering in Blender3D. From time to time I use my skills in my work. I'm fascinated by generative and procedural 3D art using arrays, ranges of properties and math to create an aesthetically pleasant image. Here are some examples of my personal art:</p>
+              <img src="img/redesign-3d-background.jpg" class="img-fluid mt-2">
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Modal 3D End -->
     <!-- Main Container Start -->
     <section class="container">
         <section class="row mt-5">
@@ -130,7 +146,7 @@
                 <h3>Going 3D</h3>
             </section>
             <section class="col-6">
-                <p>One of our goals was to find a new style for our images. I used my knowledge in 3D while experimenting with the style.</p>
+                <p>One of our goals was to find a new style for our images. I used <a class="marker" href="#exampleModal" data-bs-toggle="modal">my knowledge in 3D</a> while experimenting with the style.</p>
             </section>
         </section>
         <section class="row">
@@ -141,7 +157,7 @@
                 <h3>New 3D style and library</h3>
             </section>
             <section class="col-6">
-                <p>With the help of our Marketing team I created a library of simple prerendered 3D objects that allows designers to combine them into final images.</p>
+                <p>Based on my exploration the Marketing team finished the library of prerendered images that we now use on the website and inside the app.</p>
             </section>
         </section>
         <section class="row">
@@ -149,15 +165,33 @@
         </section>
         <section class="row mt-5">
             <section class="col-6">
-                <h3>Final design</h3>
+                <h3>Final style</h3>
             </section>
             <section class="col-6">
-                <p>The new style is fresh and scalable. Interface colors are muted that allows images to pop out yet they are WCAG AA accessible.</p>
+                <p>The new style is fresh and scalable. Interface colors are muted that allows images to pop out yet they are WCAG AA accessible. Here are some examples of the pages made by my team based on the new style.</p>
             </section>
         </section>
         <section class="row">
             <img src="img/redesign-visual-4.jpg" class="img-fluid mt-4 mb-5">
         </section>
+        <!-- More Start -->
+        <section class="accordion accordion-flush" id="showMore">
+            <section class="accordion-item bg-transparent">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Show more
+                </button>
+              </h2>
+              <section id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <section class="accordion-body">
+                    <img src="img/redesign-visual-6.jpg" class="img-fluid mt-4 mb-5">
+                    <h3 class="text-center">Guess the best cover images:</h3>
+                    <img src="img/redesign-visual-7.jpg" class="img-fluid mt-4 mb-5">
+                </section>
+              </section>
+            </section>
+        </section>
+        <!-- More End -->
         <section class="row mt-5">
             <section class="col-6">
                 <h3>Interesting fact</h3>

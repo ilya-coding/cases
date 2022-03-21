@@ -26,3 +26,16 @@ img {
 #radius {
     border-radius: 12px;
 }
+
+.radius {
+    border-radius: 12px;
+}
+
+.marker {
+    background-color: Lavender;
+    outline: 1px solid #CECEF6;
+    border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: help;
+}
